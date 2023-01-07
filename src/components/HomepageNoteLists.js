@@ -1,4 +1,5 @@
 import React from "react";
+import { FaBeer } from "@react-icons/all-files/fa/FaBeer";
 
 const NoteItem = () => (
   <li className="flex flex-[0_1_50%] pr-5">
@@ -39,6 +40,7 @@ const HomepageNoteLists = () => {
           <div className="text-center mt-10">
             <button className="border-2 border-indigo-300 rounded-md px-3 font-bold text-indigo-300">
               more
+              <FaBeer />
             </button>
           </div>
         </div>
