@@ -1,10 +1,15 @@
 import React from "react";
 import Layout from "@theme/Layout";
+import PageHeader from "@site/src/components/PageHeader";
+import HomepageWorklist from "@site/src/components/HomepageWorklist";
 
 const Works = () => {
   return (
     <Layout>
-      <div className="container">works</div>
+      <div>
+        <PageHeader />
+        <HomepageWorklist />
+      </div>
     </Layout>
   );
 };
