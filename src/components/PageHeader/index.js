@@ -2,7 +2,7 @@ import React from "react";
 
 const PageHeader = () => {
   const header = {
-    height: "500px",
+    height: "400px",
     background: "black",
   };
 
