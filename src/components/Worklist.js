@@ -107,7 +107,7 @@ const Worklist = ({ displayTitle, visibleNum }) => {
           ) : (
             ""
           )}
-          <ul className="grid md:grid-cols-3 sm:grid-cols-2 gap-4 grid-cols-1">
+          <ul className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 gap-2 grid-cols-1">
             {workListData.map((item, index) => {
               if (visibleNum && index < visibleNum) {
                 // 有顯示數量限制
