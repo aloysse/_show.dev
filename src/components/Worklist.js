@@ -113,6 +113,7 @@ const Worklist = ({ displayTitle, visibleNum }) => {
                 // 有顯示數量限制
                 return (
                   <Workitem
+                    key={index}
                     title={item.title}
                     description={item.description}
                     URL={item.URL}
@@ -124,6 +125,7 @@ const Worklist = ({ displayTitle, visibleNum }) => {
                 // 無顯示數量限制
                 return (
                   <Workitem
+                    key={index}
                     title={item.title}
                     description={item.description}
                     URL={item.URL}
