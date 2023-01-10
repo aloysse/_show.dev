@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "@docusaurus/Link";
-import { BiRightArrowAlt } from "@react-icons/all-files/bi/BiRightArrowAlt";
 import { BiChevronRight } from "@react-icons/all-files/bi/BiChevronRight";
 
 const MoreBtn = ({ link }) => {
