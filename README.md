@@ -1,6 +1,15 @@
-# Website
+# _show.dev
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+
+Hi!我是旼修，這是我的個人網站，記錄自己在前端開發、學習的內容。
+
+> 網站是利用 [Docusaurus 2](https://docusaurus.io/) 搭建
+> This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+
+
+### CSS Framework
+
+本站引入 TailwindCSS，並使用 **[postcss-nest](https://www.npmjs.com/package/postcss-nested)** 將，需使用 tailwind 樣式的區塊限制於帶 `className='tailwind'` 的容器之中，避免於 Docusaurus 原有的樣式衝突。
 
 ### Installation
 
