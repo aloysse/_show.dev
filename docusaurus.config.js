@@ -68,12 +68,12 @@ const config = {
         },
         items: [
           {
-            to: "/about",
+            to: "/About",
             position: "left",
             label: "About",
           },
           {
-            to: "/works",
+            to: "/Works",
             position: "left",
             label: "Works",
           },

@@ -6,7 +6,7 @@ import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import PageHeader from "@site/src/components/PageHeader";
 import HomepageNoteLists from "@site/src/components/HomepageNoteLists";
-import HomepageWorklist from "@site/src/components/HomepageWorklist";
+import HomepageWorklist from "@site/src/components/Worklist";
 
 import styles from "./index.module.css";
 
@@ -55,7 +55,7 @@ export default function Home() {
       <PageHeader />
       <main>
         <HomepageNoteLists />
-        <HomepageWorklist />
+        <HomepageWorklist displayTitle={true} visibleNum={6} />
         <HomepageFeatures />
       </main>
     </Layout>
