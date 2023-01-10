@@ -41,7 +41,7 @@ const HomepageNoteLists = () => {
             <NoteItem />
           </ul>
           <div className="text-center mt-10">
-            <MoreBtn />
+            <MoreBtn link={"docs/intro"} />
           </div>
         </div>
       </div>
