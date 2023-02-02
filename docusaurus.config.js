@@ -61,6 +61,11 @@ const config = {
         disableSwitch: false, //隱藏色彩模式開關
         respectPrefersColorScheme: false,
       },
+      docs: {
+        sidebar: {
+          autoCollapseCategories: true,
+        },
+      },
       navbar: {
         logo: {
           alt: "Minshiou.dev",
