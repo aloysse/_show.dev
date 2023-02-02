@@ -1,0 +1,22 @@
+.bgAnimation {
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    #ffffff 0deg,
+    transparent 360deg
+  );
+  background-size: cover;
+  background-repeat: repeat;
+  position: absolute;
+  top: calc((400px - 120vw) / 2);
+  left: -10vw;
+  width: 120vw;
+  height: 120vw;
+  animation: rotate 8s linear infinite;
+  z-index: -1;
+}
+
+@keyframes rotate {
+  to {
+    rotate: 360deg;
+  }
+}

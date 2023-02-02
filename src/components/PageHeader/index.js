@@ -1,13 +1,15 @@
 import React from "react";
+import ConicGradintRotate from "./ConicGradintRotate";
 
-const PageHeader = () => {
+const PageHeader = (props) => {
   const header = {
     height: "400px",
-    background: "black",
+    position: "relative",
+    overflow: "hidden",
   };
 
   const headerContainer = {
-    paddingBottom: "5em",
+    paddingBottom: "3em",
     display: "flex",
     height: "100%",
     alignItems: "end",
@@ -15,11 +17,10 @@ const PageHeader = () => {
   return (
     <header style={header}>
       <div className="container" style={headerContainer}>
-        <div>
-          <h1>PAGE</h1>
-          <p>this page description</p>
-        </div>
+        {props.children}
       </div>
+      {/* todo */}
+      {props.bg === "random" ? <ConicGradintRotate /> : ""}
     </header>
   );
 };

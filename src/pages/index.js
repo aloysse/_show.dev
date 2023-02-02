@@ -52,7 +52,22 @@ export default function Home() {
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />"
     >
-      <PageHeader />
+      <PageHeader bg={"random"}>
+        <div className="tailwind">
+          <div className=" max-w-[450px]">
+            <h1 className=" font-extrabold text-4xl z-1 mb-3 text-gray-500">
+              Hello!
+            </h1>
+            <p className="font-extrabold text-xl">
+              我是旼修，一位前端工程師，
+              <span className="text-gray-500">前</span>
+              平面設計師。
+              <br />
+              這裡是我分享學習筆記和過往專案的地方
+            </p>
+          </div>
+        </div>
+      </PageHeader>
       <main>
         <HomepageNoteLists />
         <HomepageWorklist displayTitle={true} visibleNum={6} />
